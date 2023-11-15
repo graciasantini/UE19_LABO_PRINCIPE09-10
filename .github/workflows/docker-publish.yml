@@ -22,7 +22,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ graciamboma }}/ue19_labo09-10:latest
+            ghcr.io/${{ secrets.graciamboma }}/ue19_labo09-10:latest
           labels: |
             org.opencontainers.image.title=UE19_LABO09-10
             org.opencontainers.image.description=Description de votre conteneur
